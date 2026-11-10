@@ -59,7 +59,7 @@ A extensão não pede sua senha, não lê cookies ou tokens e não modifica seus
 
 ### Seus dados
 
-Coletas e preferências ficam **no seu PC**, na pasta `userData` da instalação; não há backup em nuvem. Atualizações e reinstalações na mesma pasta preservam arquivos existentes, e a desinstalação também mantém essa pasta. Faça seu próprio backup. Ao migrar de uma versão portátil, feche o overlay e copie a `userData` antiga para a nova instalação.
+**A partir da 1.0.1**, coletas e preferências ficam **no seu PC**, em `%LOCALAPPDATA%\HexenMap\state`, fora da pasta do programa. Atualizações e reinstalações usam o mesmo save pessoal; o desinstalador não remove essa pasta. Saves antigos encontrados são migrados com backup. Se você já usava o app e ele pedir para importar um arquivo, selecione o `progress.json` antigo ou um backup, em vez de confirmar um perfil novo. Não há backup em nuvem: mantenha também uma cópia independente. [Correção e recuperação de marcações](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.1).
 
 ### Riscos e limites
 
@@ -115,7 +115,7 @@ The extension does not ask for your password, read cookies or tokens, or change 
 
 ### Your data
 
-Collected items and preferences stay **on your PC**, in the installation's `userData` folder; there is no cloud backup. Updates and reinstalls in the same folder preserve existing files, and uninstalling also retains that folder. Keep your own backup. When migrating from a portable build, close the overlay and copy your old `userData` into the new installation.
+**Starting with 1.0.1**, collected items and preferences stay **on your PC**, in `%LOCALAPPDATA%\HexenMap\state`, outside the program folder. Updates and reinstalls use the same personal save; the uninstaller does not remove that folder. Detected older saves are migrated with backups. If you previously used the app and are asked to select a file, choose your old `progress.json` or a backup instead of confirming a new profile. There is no cloud backup: keep an independent copy too. [Save recovery update](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.1).
 
 ### Risks and limitations
 
