@@ -28,7 +28,7 @@ Chega de interromper cada rota para conferir onde está o próximo item. O Hexen
 | **🎥 Modo streamer** | Escolha se o overlay aparece nas capturas e no compartilhamento de tela, mantendo a ajuda visível para você. A compatibilidade depende do método de captura; teste antes da live. |
 | **⚡ AutoMark de baús · Beta** | Menos marcações manuais: registra uma coleta quando os sinais de abertura, recompensa e posição permitem uma associação confiável. Vem desligado e precisa ser habilitado. |
 | **🖼️ Fotos do local** | Está difícil encontrar o ponto? Abra o cartão, consulte as fotos e amplie com zoom para enxergar os detalhes. |
-| **🔄 Importação do AppSample** | Aproveite o que você já marcou: confira a prévia, mescle os coletados e continue sua exploração. Não é sincronização contínua da conta. |
+| **🔄 Importação + extensão AppSample** | O Hexen Map Exporter ajuda a exportar seus coletados do navegador, sem F12. Importe com prévia e continue de onde parou. Exige suporte a extensões do Chrome. |
 | **🌍 Mapa geral de Teyvat** | Planeje o próximo trecho com zoom, filtros e coletas compartilhadas com o overlay, na superfície instalada. |
 | **🧭 Catálogo organizado** | Busque itens, filtre categorias e mantenha na tela o que importa para a sua rota. Catálogo em português com aliases de busca. |
 | **🎛️ Painel do seu jeito** | Mova, redimensione, recolha e ajuste a escala dos controles. Menos painel no caminho, mais espaço para jogar. |
@@ -45,6 +45,17 @@ Chega de interromper cada rota para conferir onde está o próximo item. O Hexen
 4. Escolha os itens no painel. Com o mapa aberto, **Ctrl + clique** em um marcador abre seu cartão com fotos e a opção de marcar/desmarcar a coleta.
 
 O alinhamento usa captura de imagem e reconhecimento visual: o aplicativo não lê a memória do jogo, não injeta código e não controla o personagem. Isso permite desenhar uma camada externa sobre os mapas já exibidos pelo jogo.
+
+### 🧩 Hexen Map Exporter: traga seu progresso do navegador
+
+A extensão **Hexen Map Exporter** ajuda a exportar os itens já marcados no AppSample, sem precisar usar o console do navegador. No aplicativo, vá a **Ajustes → Coletados do AppSample → Abrir pasta da extensão** e carregue a pasta pelo modo de desenvolvedor do navegador. Abra o AppSample conectado à sua conta e use **Atualizar leitura** na extensão.
+
+- **Baixar JSON:** exporte o arquivo e importe pelos Ajustes do Hexen Map.
+- **Enviar ao Hexen Map:** ative antes **Ativar conexão com a extensão** nos Ajustes. Confira a prévia e confirme a mesclagem no aplicativo.
+
+> **Compatibilidade:** a extensão é exclusiva de navegadores que aceitam extensões do Chrome/Chromium. Chrome é a referência de uso; a validação real no Edge ainda está pendente. Navegadores sem esse suporte, como Firefox e Safari, não são compatíveis com esta extensão. A conexão direta está preparada para Chrome e Edge; outros navegadores Chromium não têm suporte garantido. Essa restrição é da extensão de exportação, não do overlay.
+
+A extensão não pede sua senha, não lê cookies ou tokens e não modifica seus coletados no AppSample. A exportação é feita quando você solicita; não há sincronização contínua ou bidirecional.
 
 ### Seus dados
 
@@ -73,7 +84,7 @@ Stop interrupting every route to look up the next item. Hexen Map brings visual 
 | **🎥 Streamer mode** | Choose whether the overlay appears in screen captures and screen sharing while keeping it visible to you. Support depends on the capture method; test your setup before going live. |
 | **⚡ Chest AutoMark · Beta** | Less manual tracking: records a collection when opening, reward, and position signals support a reliable match. Disabled by default; enable it when you want to try it. |
 | **🖼️ Location photos** | Having trouble finding a spot? Open its card, check the photos, and zoom in for the details. |
-| **🔄 AppSample progress import** | Keep the work you already did: review the preview, merge collected items, and carry on. This is not continuous account synchronization. |
+| **🔄 AppSample import + browser extension** | Hexen Map Exporter helps export collected markers from your browser without developer tools. Review the import and pick up where you left off. Requires Chrome extension support. |
 | **🌍 Teyvat world map** | Plan your next stretch with zoom, filters, and collection status shared with the overlay, on the installed surface map. |
 | **🧭 Organized item catalog** | Search and filter categories to show what matters for your route. The Portuguese catalog includes search aliases. |
 | **🎛️ A panel that fits your setup** | Move, resize, collapse, and scale the controls. Keep more of your screen available for the game. |
@@ -90,6 +101,17 @@ Stop interrupting every route to look up the next item. Hexen Map brings visual 
 4. Select items in the panel. With the map open, **Ctrl + click** a marker to see its photos and mark or unmark it as collected.
 
 Alignment relies on screen capture and visual recognition. The app does not read game memory, inject code, or control your character. It draws an external layer over the maps already displayed by the game.
+
+### 🧩 Hexen Map Exporter: bring your browser progress with you
+
+The **Hexen Map Exporter** extension helps export markers you have already collected on AppSample, without using the browser console. In the app, open **Settings → AppSample collected items → Open extension folder** (currently labeled **Ajustes → Coletados do AppSample → Abrir pasta da extensão**) and load that folder through your browser's developer mode. Open AppSample signed in to your account and use **Refresh reading / Atualizar leitura** in the extension.
+
+- **Download JSON:** export the file and import it through Hexen Map settings.
+- **Send to Hexen Map:** first enable **Ativar conexão com a extensão** in settings. Review the preview and confirm the merge in the app.
+
+> **Compatibility:** this extension requires a browser that supports Chrome/Chromium extensions. Chrome is the reference browser; real-world Edge validation is still pending. Browsers without that support, such as Firefox and Safari, are not compatible with this extension. Direct app integration is prepared for Chrome and Edge; other Chromium browsers are not guaranteed to work. This restriction applies to the export extension, not to the overlay.
+
+The extension does not ask for your password, read cookies or tokens, or change collected markers on AppSample. Exports happen at your request; there is no continuous or bidirectional synchronization.
 
 ### Your data
 
