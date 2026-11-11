@@ -26,16 +26,30 @@ Chega de interromper cada rota para conferir onde está o próximo item. O Hexen
 | --- | --- |
 | **📍 Pins no minimapa e no mapa M** | Veja os itens selecionados sobre os mapas do jogo e reduza as idas ao navegador. |
 | **🎥 Modo streamer** | Escolha se o overlay aparece nas capturas e no compartilhamento de tela, mantendo a ajuda visível para você. A compatibilidade depende do método de captura; teste antes da live. |
-| **⚡ AutoMark de baús · Beta** | Menos marcações manuais: registra uma coleta quando os sinais de abertura, recompensa e posição permitem uma associação confiável. Vem desligado e precisa ser habilitado. |
+| **⚡ AutoMark de baús · Beta** | Ative no controle acima do rodapé, acompanhe o status e sincronize novamente quando necessário. Registra um baú próximo quando abertura, recompensas e posição permitem uma associação confiável. Beta, desligado por padrão. |
 | **🖼️ Fotos do local** | Está difícil encontrar o ponto? Abra o cartão, consulte as fotos e amplie com zoom para enxergar os detalhes. |
 | **🔄 Importação + extensão AppSample** | O Hexen Map Exporter ajuda a exportar seus coletados do navegador, sem F12. Importe com prévia e continue de onde parou. Exige suporte a extensões do Chrome. |
 | **🌍 Mapa geral de Teyvat** | Planeje o próximo trecho com zoom, filtros e coletas compartilhadas com o overlay, na superfície instalada. |
 | **🧭 Catálogo organizado** | Busque itens, filtre categorias e mantenha na tela o que importa para a sua rota. Catálogo em português com aliases de busca. |
-| **🎛️ Painel do seu jeito** | Mova, redimensione, recolha e ajuste a escala dos controles. Menos painel no caminho, mais espaço para jogar. |
-| **🚀 Abra e jogue** | O launcher verifica atualizações e segue para o app sozinho. Sem instalar Python ou baixar a pasta inteira a cada versão. |
-| **💾 Seu progresso continua seu** | Marcações locais preservadas nas atualizações e reinstalações na mesma pasta. Faça backups para ter uma cópia adicional. |
+| **🎛️ Painel do seu jeito** | Fixe o painel ao Genshin ou use uma janela independente. Mova, redimensione, recolha e ajuste a escala. AutoMark, sincronização e ações principais ficam acessíveis no painel. |
+| **🚀 Abra e jogue** | O launcher verifica atualizações e abre o app automaticamente. A bandeja do Windows permite reabrir o painel ou encerrar. Não exige Python. |
+| **💾 Seu progresso continua seu** | Coletas e preferências ficam fora da pasta do programa e são preservadas nas atualizações. Perfis locais permitem separar contas. Mantenha backups independentes. |
 
 > **Joga e transmite?** Use as referências na sua tela e escolha o que vai para a captura. **Já explora pelo AppSample?** Importe seus coletados para continuar de onde parou.
+
+### Atualizações recentes
+
+As versões [1.0.6](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.6) e [1.0.7](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.7) trazem:
+
+- **Minimapa:** correção do cálculo de incerteza e retenção da última referência de terreno válida durante buscas alternativas.
+- **AutoMark:** sincronização de tela e posição, adaptação adicional de escala do HUD e botão **↻** para sincronizar novamente. A escala dos sinais de baú é confirmada quando eles aparecem; a preparação inicial não garante uma coleta automática.
+- **Leitura e interação:** óculis com halo sombreado, preparação dos cliques próxima do cursor ao segurar Ctrl e botões para escolher marcadores sobrepostos. Os demais marcadores continuam visíveis.
+- **Painel:** AutoMark acima do rodapé, interruptor estilizado e ações Report, Apoiar e Jogar alinhadas. O Report fecha após envio confirmado e mantém o texto se houver falha.
+- **Recursos:** carregamento de referências e uso de memória gerenciados automaticamente, sem seletor Leve/Global.
+
+**AutoMark:** vem desligado, usa referências de HUD em português e requer o jogo em foco. Ative o interruptor no painel e volte ao Genshin para sincronizar. Se a posição ou a associação ao baú forem incertas, a coleta automática pode ser recusada; revise suas marcações.
+
+**Tela e foco:** a captura conta com recuperação por Windows Graphics Capture quando GDI falha. Fullscreen foi validado localmente, mas a compatibilidade varia entre computadores e métodos de captura. Cartões e fotos receberam proteção de ativação; a preservação do fullscreen em todas as interações ainda requer validação no jogo. Se houver perda de foco ou de visibilidade, teste janela sem bordas.
 
 ### Comece em poucos passos
 
@@ -45,6 +59,8 @@ Chega de interromper cada rota para conferir onde está o próximo item. O Hexen
 4. Escolha os itens no painel. Com o mapa aberto, **Ctrl + clique** em um marcador abre seu cartão com fotos e a opção de marcar/desmarcar a coleta.
 
 O alinhamento usa captura de imagem e reconhecimento visual: o aplicativo não lê a memória do jogo, não injeta código e não controla o personagem. Isso permite desenhar uma camada externa sobre os mapas já exibidos pelo jogo.
+
+**Qual arquivo baixar?** Baixe o instalador `HexenMap-VERSAO-Setup-x64.exe`. O `.exe.sha256` serve para verificar sua integridade. Os arquivos **Source code (zip/tar.gz)** são gerados automaticamente pelo GitHub a partir deste repositório de distribuição e não substituem o instalador.
 
 ### 🧩 Hexen Map Exporter: traga seu progresso do navegador
 
@@ -82,16 +98,30 @@ Stop interrupting every route to look up the next item. Hexen Map brings visual 
 | --- | --- |
 | **📍 Minimap and in-game map markers** | See selected items over the game's maps and cut down on browser switching. |
 | **🎥 Streamer mode** | Choose whether the overlay appears in screen captures and screen sharing while keeping it visible to you. Support depends on the capture method; test your setup before going live. |
-| **⚡ Chest AutoMark · Beta** | Less manual tracking: records a collection when opening, reward, and position signals support a reliable match. Disabled by default; enable it when you want to try it. |
+| **⚡ Chest AutoMark · Beta** | Enable it above the footer, follow synchronization status, and resync when needed. Records a nearby chest when opening, rewards, and position support a reliable match. Opt-in beta. |
 | **🖼️ Location photos** | Having trouble finding a spot? Open its card, check the photos, and zoom in for the details. |
 | **🔄 AppSample import + browser extension** | Hexen Map Exporter helps export collected markers from your browser without developer tools. Review the import and pick up where you left off. Requires Chrome extension support. |
 | **🌍 Teyvat world map** | Plan your next stretch with zoom, filters, and collection status shared with the overlay, on the installed surface map. |
 | **🧭 Organized item catalog** | Search and filter categories to show what matters for your route. The Portuguese catalog includes search aliases. |
-| **🎛️ A panel that fits your setup** | Move, resize, collapse, and scale the controls. Keep more of your screen available for the game. |
-| **🚀 Launch and play** | The launcher checks for updates and opens the app automatically. No Python installation or repeated full-folder downloads. |
-| **💾 Your progress stays yours** | Local collected markers survive updates and reinstalls in the same folder. Keep backups for an extra copy. |
+| **🎛️ A panel that fits your setup** | Attach the panel to Genshin or use an independent window. Move, resize, collapse, and scale it; AutoMark and synchronization are accessible on the main panel. |
+| **🚀 Launch and play** | The launcher checks for updates and opens the app automatically. A Windows tray menu lets you reopen the panel or exit. No Python installation required. |
+| **💾 Your progress stays yours** | Progress and preferences stay outside the program folder and survive updates. Local profiles keep accounts separate. Maintain independent backups. |
 
 > **Playing and streaming?** Keep your references on your screen and choose what goes into the capture. **Already using AppSample?** Import your collected markers and pick up where you left off.
+
+### Recent updates
+
+Versions [1.0.6](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.6) and [1.0.7](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.7) include:
+
+- **Minimap:** corrected uncertainty accounting and retention of the last verified terrain reference during alternative searches.
+- **AutoMark:** screen/position synchronization, additional HUD scale adaptation and a **↻** resync control. Chest-signal scale is confirmed when those signals appear; initial synchronization does not guarantee automatic collection.
+- **Readability and interaction:** shaded oculus halos, nearby Ctrl click targets and buttons for overlapping markers. Other markers remain visible.
+- **Panel:** AutoMark above the footer, a styled switch and aligned Report, Support and Play actions. Reports close after confirmed delivery and retain the draft on failure.
+- **Resources:** automatic reference loading and memory management, replacing the Light/Global selector.
+
+**AutoMark** is disabled by default, uses Portuguese HUD references and requires the game in focus. Enable it on the panel, then return to Genshin to synchronize. Uncertain positions or chest associations may be rejected; review your collected markers. The application interface is currently in Brazilian Portuguese.
+
+**Display and focus:** Windows Graphics Capture provides fallback after GDI capture failures. Fullscreen was locally validated, but compatibility varies by PC and capture method. Collection cards and photo viewers now use activation protection; preserving fullscreen across every interaction still requires in-game validation. Try borderless mode if focus or visibility is lost.
 
 ### Get started in a few steps
 
@@ -101,6 +131,8 @@ Stop interrupting every route to look up the next item. Hexen Map brings visual 
 4. Select items in the panel. With the map open, **Ctrl + click** a marker to see its photos and mark or unmark it as collected.
 
 Alignment relies on screen capture and visual recognition. The app does not read game memory, inject code, or control your character. It draws an external layer over the maps already displayed by the game.
+
+**Which file should I download?** Choose `HexenMap-VERSION-Setup-x64.exe`. The `.exe.sha256` file verifies its integrity. GitHub automatically generates **Source code (zip/tar.gz)** archives from this distribution repository; they are not installers.
 
 ### 🧩 Hexen Map Exporter: bring your browser progress with you
 
