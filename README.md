@@ -26,28 +26,27 @@ Chega de interromper cada rota para conferir onde está o próximo item. O Hexen
 | --- | --- |
 | **📍 Pins no minimapa e no mapa M** | Veja os itens selecionados sobre os mapas do jogo e reduza as idas ao navegador. |
 | **🎥 Modo streamer** | Escolha se o overlay aparece nas capturas e no compartilhamento de tela, mantendo a ajuda visível para você. A compatibilidade depende do método de captura; teste antes da live. |
-| **⚡ AutoMark de baús · Beta** | Ative no controle acima do rodapé, acompanhe o status e sincronize novamente quando necessário. Registra um baú próximo quando abertura, recompensas e posição permitem uma associação confiável. Beta, desligado por padrão. |
+| **⚡ AutoMark de baús · Beta** | Ative acima do rodapé, acompanhe a sincronização e use ↻ para sincronizar novamente. Registra um baú próximo quando abertura, recompensas e posição permitem uma associação confiável. Beta, desligado por padrão. |
 | **🖼️ Fotos do local** | Está difícil encontrar o ponto? Abra o cartão, consulte as fotos e amplie com zoom para enxergar os detalhes. |
 | **🔄 Importação + extensão AppSample** | O Hexen Map Exporter ajuda a exportar seus coletados do navegador, sem F12. Importe com prévia e continue de onde parou. Exige suporte a extensões do Chrome. |
-| **🌍 Mapa geral de Teyvat** | Planeje o próximo trecho com zoom, filtros e coletas compartilhadas com o overlay, na superfície instalada. |
-| **🧭 Catálogo organizado** | Busque itens, filtre categorias e mantenha na tela o que importa para a sua rota. Catálogo em português com aliases de busca. |
+| **🌍 Mapa global e áreas separadas** | Consulte Teyvat e seis mapas permanentes separados, com 44 camadas próprias, zoom, filtros, fotos e coletas. A navegação não altera o rastreamento do jogo. |
+| **📚 Catálogo organizado** | Busque itens, filtre categorias e mantenha na tela o que importa para a sua rota. Interface e catálogo em português e inglês, com aliases de busca. |
 | **🎛️ Painel do seu jeito** | Fixe o painel ao Genshin ou use uma janela independente. Mova, redimensione, recolha e ajuste a escala. AutoMark, sincronização e ações principais ficam acessíveis no painel. |
 | **🚀 Abra e jogue** | O launcher verifica atualizações e abre o app automaticamente. A bandeja do Windows permite reabrir o painel ou encerrar. Não exige Python. |
-| **💾 Seu progresso continua seu** | Coletas e preferências ficam fora da pasta do programa e são preservadas nas atualizações. Perfis locais permitem separar contas. Mantenha backups independentes. |
+| **💾 Seu progresso continua seu** | Coletas e preferências ficam fora da pasta do programa e são preservadas nas atualizações e reinstalações. Perfis locais separam contas; mantenha backups independentes. |
 
 > **Joga e transmite?** Use as referências na sua tela e escolha o que vai para a captura. **Já explora pelo AppSample?** Importe seus coletados para continuar de onde parou.
 
-### Atualizações recentes
+### Funções e limites atuais · 2.0.1
 
-As versões [1.0.6](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.6) e [1.0.7](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.7) trazem:
-
-- **Minimapa:** correção do cálculo de incerteza e retenção da última referência de terreno válida durante buscas alternativas.
-- **AutoMark:** sincronização de tela e posição, adaptação adicional de escala do HUD e botão **↻** para sincronizar novamente. A escala dos sinais de baú é confirmada quando eles aparecem; a preparação inicial não garante uma coleta automática.
-- **Leitura e interação:** óculis com halo sombreado, preparação dos cliques próxima do cursor ao segurar Ctrl e botões para escolher marcadores sobrepostos. Os demais marcadores continuam visíveis.
-- **Painel:** AutoMark acima do rodapé, interruptor estilizado e ações Report, Apoiar e Jogar alinhadas. O Report fecha após envio confirmado e mantém o texto se houver falha.
-- **Recursos:** carregamento de referências e uso de memória gerenciados automaticamente, sem seletor Leve/Global.
-
-**AutoMark:** vem desligado, usa referências de HUD em português e requer o jogo em foco. Ative o interruptor no painel e volte ao Genshin para sincronizar. Se a posição ou a associação ao baú forem incertas, a coleta automática pode ser recusada; revise suas marcações.
+- **Mapas:** Teyvat, Enkanomiya, Despenhadeiro subterrâneo, Mar das Eras Passadas, Montanha Sagrada Antiga, Templo do Espaço e Lua Gélida. Use **Automático · Detectar mapa** ou fixe mapa/camada nos Ajustes. A cobertura depende dos recursos instalados; mapas temporários e a expansão geral das cavernas de Teyvat ficam fora desta versão.
+- **Sem bússola ou busca guiada:** os pins mostram os itens selecionados nos mapas do jogo. Não há navegação por alvo nem atalhos de farm.
+- **Controles padrão:** F8 abre/recolhe o painel; Ctrl+Alt+F12 mostra/oculta os pins; Ctrl + clique abre o cartão; segurar Ctrl revela coletados em cinza; F9 confirma uma coleta próxima ou apresenta candidatos; F10 desfaz a última coleta da sessão. Os quatro atalhos de teclado são configuráveis nos Ajustes.
+- **AutoMark:** beta e desligado por padrão. Requer o jogo em foco, referências qualificadas, posição confiável e associação sem ambiguidade. Também confirma recompensas por pares de ícones, sem depender do texto em português ou inglês. A sincronização inicial não garante uma coleta; o assistente de calibração pessoal ainda não está incluído.
+- **Recursos e reposição:** referências e memória são gerenciadas automaticamente, sem seletor Leve/Global. Itens permanentes não expiram; recursos sem regra qualificada mostram **Reposição não confirmada**.
+- **Idioma:** português e inglês no aplicativo e instalador. Altere em **Ajustes → Idioma / Language** e reabra o app.
+- **Tela e diagnóstico:** prefira janela ou sem bordas se o overlay não aparecer em tela cheia. Diagnóstico permite recarregar o reconhecimento e gravar o canto do minimapa por até 20 segundos/50 MiB, com exportação manual; nenhuma captura é enviada automaticamente. A bandeja do Windows permite reabrir o painel ou encerrar.
+- **Correção 2.0.1:** revalidação do minimapa por referências nativas para reduzir desaparecimentos intermitentes. A validação real da estabilidade continua pendente; não há garantia de eliminar todas as piscadas.
 
 **Tela e foco:** a captura conta com recuperação por Windows Graphics Capture quando GDI falha. Fullscreen foi validado localmente, mas a compatibilidade varia entre computadores e métodos de captura. Cartões e fotos receberam proteção de ativação; a preservação do fullscreen em todas as interações ainda requer validação no jogo. Se houver perda de foco ou de visibilidade, teste janela sem bordas.
 
@@ -98,28 +97,27 @@ Stop interrupting every route to look up the next item. Hexen Map brings visual 
 | --- | --- |
 | **📍 Minimap and in-game map markers** | See selected items over the game's maps and cut down on browser switching. |
 | **🎥 Streamer mode** | Choose whether the overlay appears in screen captures and screen sharing while keeping it visible to you. Support depends on the capture method; test your setup before going live. |
-| **⚡ Chest AutoMark · Beta** | Enable it above the footer, follow synchronization status, and resync when needed. Records a nearby chest when opening, rewards, and position support a reliable match. Opt-in beta. |
+| **⚡ Chest AutoMark · Beta** | Enable it above the footer, follow synchronization status and use ↻ to resync. Records a nearby chest when opening, rewards and position support a reliable match. Opt-in beta. |
 | **🖼️ Location photos** | Having trouble finding a spot? Open its card, check the photos, and zoom in for the details. |
 | **🔄 AppSample import + browser extension** | Hexen Map Exporter helps export collected markers from your browser without developer tools. Review the import and pick up where you left off. Requires Chrome extension support. |
-| **🌍 Teyvat world map** | Plan your next stretch with zoom, filters, and collection status shared with the overlay, on the installed surface map. |
-| **🧭 Organized item catalog** | Search and filter categories to show what matters for your route. The Portuguese catalog includes search aliases. |
+| **🌍 World map and separate areas** | Browse Teyvat and six permanent separate maps with 44 dedicated layers, zoom, filters, photos and progress. Browsing does not change game tracking. |
+| **📚 Organized item catalog** | Search and filter categories to show what matters for your route. The interface and catalog support Portuguese and English, including search aliases. |
 | **🎛️ A panel that fits your setup** | Attach the panel to Genshin or use an independent window. Move, resize, collapse, and scale it; AutoMark and synchronization are accessible on the main panel. |
 | **🚀 Launch and play** | The launcher checks for updates and opens the app automatically. A Windows tray menu lets you reopen the panel or exit. No Python installation required. |
-| **💾 Your progress stays yours** | Progress and preferences stay outside the program folder and survive updates. Local profiles keep accounts separate. Maintain independent backups. |
+| **💾 Your progress stays yours** | Collected items and preferences live outside the program folder and survive updates and reinstalls. Local profiles separate accounts; keep independent backups. |
 
 > **Playing and streaming?** Keep your references on your screen and choose what goes into the capture. **Already using AppSample?** Import your collected markers and pick up where you left off.
 
-### Recent updates
+### Current features and limits · 2.0.1
 
-Versions [1.0.6](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.6) and [1.0.7](https://github.com/victoregit/HexenMap-Releases/releases/tag/v1.0.7) include:
-
-- **Minimap:** corrected uncertainty accounting and retention of the last verified terrain reference during alternative searches.
-- **AutoMark:** screen/position synchronization, additional HUD scale adaptation and a **↻** resync control. Chest-signal scale is confirmed when those signals appear; initial synchronization does not guarantee automatic collection.
-- **Readability and interaction:** shaded oculus halos, nearby Ctrl click targets and buttons for overlapping markers. Other markers remain visible.
-- **Panel:** AutoMark above the footer, a styled switch and aligned Report, Support and Play actions. Reports close after confirmed delivery and retain the draft on failure.
-- **Resources:** automatic reference loading and memory management, replacing the Light/Global selector.
-
-**AutoMark** is disabled by default, uses Portuguese HUD references and requires the game in focus. Enable it on the panel, then return to Genshin to synchronize. Uncertain positions or chest associations may be rejected; review your collected markers. The application interface is currently in Brazilian Portuguese.
+- **Maps:** Teyvat, Enkanomiya, The Chasm: Underground Mines, Sea of Bygone Eras, Ancient Sacred Mountain, Temple of Space and Frost Moon. Use **Automatic · Detect map** or select a fixed map/layer in Settings. Coverage depends on installed resources; temporary maps and a general expansion of Teyvat caves are outside this version.
+- **No compass or guided search:** pins display selected items on the in-game maps. Target navigation and farming hotkeys are not available.
+- **Default controls:** F8 opens/collapses the panel; Ctrl+Alt+F12 shows/hides pins; Ctrl + click opens a card; holding Ctrl reveals collected items in gray; F9 confirms a nearby collection or presents candidates; F10 undoes the session's last collection. The four keyboard shortcuts are configurable in Settings.
+- **AutoMark:** opt-in beta. Requires game focus, qualified references, a reliable position and an unambiguous match. Reward icon pairs also work without relying on Portuguese or English text. Initial synchronization does not guarantee a collection; the personal calibration wizard is not included yet.
+- **Resources and respawns:** references and memory are managed automatically, without a Light/Global selector. Permanent items never expire; resources without a qualified rule show **Respawn unconfirmed**.
+- **Language:** Portuguese and English in the app and installer. Change **Settings → Idioma / Language** and reopen the app.
+- **Display and diagnostics:** try windowed or borderless mode if fullscreen hides the overlay. Diagnostics can reload recognition and record the minimap corner for up to 20 seconds/50 MiB, with manual export; captures are never uploaded automatically. The Windows tray can reopen the panel or exit.
+- **2.0.1 fix:** native minimap reference revalidation aims to reduce intermittent marker disappearances. Real gameplay stability validation remains pending; eliminating all flickering is not guaranteed.
 
 **Display and focus:** Windows Graphics Capture provides fallback after GDI capture failures. Fullscreen was locally validated, but compatibility varies by PC and capture method. Collection cards and photo viewers now use activation protection; preserving fullscreen across every interaction still requires in-game validation. Try borderless mode if focus or visibility is lost.
 
@@ -136,7 +134,7 @@ Alignment relies on screen capture and visual recognition. The app does not read
 
 ### 🧩 Hexen Map Exporter: bring your browser progress with you
 
-The **Hexen Map Exporter** extension helps export markers you have already collected on AppSample, without using the browser console. In the app, open **Settings → AppSample collected items → Open extension folder** (currently labeled **Ajustes → Coletados do AppSample → Abrir pasta da extensão**) and load that folder through your browser's developer mode. Open AppSample signed in to your account and use **Refresh reading / Atualizar leitura** in the extension.
+The **Hexen Map Exporter** extension helps export markers you have already collected on AppSample, without using the browser console. In the app, open **Settings → AppSample collected items → Open extension folder** and load that folder through your browser's developer mode. Open AppSample signed in to your account and use **Refresh reading / Atualizar leitura** in the extension.
 
 - **Download JSON:** export the file and import it through Hexen Map settings.
 - **Send to Hexen Map:** first enable **Ativar conexão com a extensão** in settings. Review the preview and confirm the merge in the app.
