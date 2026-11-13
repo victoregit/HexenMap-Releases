@@ -85,6 +85,12 @@ A extensão não pede sua senha, não lê cookies ou tokens e não modifica seus
 
 Encontrou um problema? Abra uma [issue](https://github.com/victoregit/HexenMap-Releases/issues) com a versão, resolução e passos para reproduzir. Não envie senhas, cookies, tokens ou arquivos pessoais de progresso.
 
+### ☕ Apoie o projeto
+
+O Hexen Map é gratuito. Se ele te ajudou e você quiser apoiar o desenvolvimento, pode me pagar um café. O apoio é totalmente voluntário.
+
+[☕ Apoiar no Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
+
 ## English
 
 **Your exploration companion for Genshin Impact.** Hexen Map overlays markers on the minimap and in-game map, tracks collected items, displays location photos, and imports AppSample progress. This repository distributes installers and updates for 64-bit Windows 10/11.
@@ -155,3 +161,9 @@ The extension does not ask for your password, read cookies or tokens, or change 
 - Maps, photos, and external services may change or become unavailable. Their content belongs to its respective owners; distributing the app does not transfer those rights.
 
 Found a problem? Open an [issue](https://github.com/victoregit/HexenMap-Releases/issues) with your version, resolution, and reproduction steps. Do not share passwords, cookies, tokens, or personal progress files.
+
+### ☕ Support the project
+
+Hexen Map is free. If it has helped you and you would like to support development, you can buy me a coffee. Support is entirely optional.
+
+[☕ Support on Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
