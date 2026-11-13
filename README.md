@@ -89,7 +89,8 @@ Encontrou um problema? Abra uma [issue](https://github.com/victoregit/HexenMap-R
 
 O Hexen Map é gratuito. Se ele te ajudou e você quiser apoiar o desenvolvimento, pode me pagar um café. O apoio é totalmente voluntário.
 
-[☕ Apoiar no Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
+- [☕ Apoiar no Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
+- [Apoiar pelo Mercado Pago](https://link.mercadopago.com.br/hexenmap)
 
 ## English
 
@@ -166,4 +167,5 @@ Found a problem? Open an [issue](https://github.com/victoregit/HexenMap-Releases
 
 Hexen Map is free. If it has helped you and you would like to support development, you can buy me a coffee. Support is entirely optional.
 
-[☕ Support on Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
+- [☕ Support on Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
+- [Support via Mercado Pago](https://link.mercadopago.com.br/hexenmap)
