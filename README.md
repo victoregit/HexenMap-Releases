@@ -92,6 +92,10 @@ O Hexen Map é gratuito. Se ele te ajudou e você quiser apoiar o desenvolviment
 - [☕ Apoiar no Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
 - [Apoiar pelo Mercado Pago](https://link.mercadopago.com.br/hexenmap)
 
+### Redes sociais
+
+Acompanhe o Hexen Map no [TikTok · @hexenmap](https://www.tiktok.com/@hexenmap).
+
 ## English
 
 **Your exploration companion for Genshin Impact.** Hexen Map overlays markers on the minimap and in-game map, tracks collected items, displays location photos, and imports AppSample progress. This repository distributes installers and updates for 64-bit Windows 10/11.
@@ -169,3 +173,7 @@ Hexen Map is free. If it has helped you and you would like to support developmen
 
 - [☕ Support on Buy Me a Coffee](https://buymeacoffee.com/victorsilva)
 - [Support via Mercado Pago](https://link.mercadopago.com.br/hexenmap)
+
+### Social media
+
+Follow Hexen Map on [TikTok · @hexenmap](https://www.tiktok.com/@hexenmap).
